@@ -5,7 +5,7 @@
     <style>
         body {
             background: linear-gradient(45deg, hotpink, yellow, aqua, lime, magenta);
-            font-family: Comic Sans MS, cursive;
+            font-family: Arial, sans-serif; /* ✅ Normal font */
             color: #00ff00;
             animation: flash 1s infinite;
         }
@@ -66,10 +66,24 @@
             border: 3px solid red;
             cursor: pointer;
         }
+
+        /* ✅ New text styling */
+        .comingsoon {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+            color: black;
+            background: white;
+            padding: 15px;
+            margin-top: 10px;
+        }
     </style>
 </head>
 
 <body>
+
+    <!-- ✅ Added text -->
+    <div class="comingsoon">Libya to Italy Game Page — Coming Soon</div>
 
     <h1 align="center">✨😈 taHMid SuPrEmE aTTiTuDe bOy 😈✨</h1>
     <h3 align="center"><i>my lIfE my RuLeS 😈💔 u CaN StoP mE, BuT u CaN’T HandLe mE 🔥💥</i></h3>
@@ -89,7 +103,6 @@
 
     <!-- ✅ SOUND BUTTON -->
     <button id="soundBtn">🔊 PLAY VIDEO SOUND</button>
-
 
     <!-- ✅ PLAY MUSIC -->
     <audio id="bgm" loop>
@@ -116,7 +129,6 @@
             vid.play();
         };
     </script>
-
 
     <p><u>AbOuT KING aTTiTuDe:</u></p>
 
@@ -146,4 +158,3 @@
 
 </body>
 </html>
-
